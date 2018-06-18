@@ -1,0 +1,97 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+/* font-family: "RobotoLight"; */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "RobotoLight";
+  src: url("../fonts/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype"); }
+
+a {
+  color: #eeeeee;
+  text-decoration: none; }
+  a:hover {
+    color: #e12727; }
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  background-color: #fff;
+  background-image: url("");
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  font-size: 14px;
+  font-family: 'RobotoRegular', Arial, sans-serif;
+  line-height: 1.5em;
+  opacity: 1;
+  
+
+p {
+  color: #cccccc; 
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+img {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+
+
+li {
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+.top_line {
+  display: inline-block;
+  position: top-line;
+  max-width: 100%;
+  height: 40px;
+  text-decoration: none;
+
+}
+
+
+.header-menu {
+  display: table;
+  width: 100%;
+  border-radius: 0 0 7px 7px;
+  background: rgba(0, 0, 0, 0.2); }
+  .header-menu__list {
+    display: table;
+    padding: 0;
+    list-style: none; }
+    .header-menu__list--active {
+      display: table !important;
+      clear: both; }
+    .header-menu__list-item {
+      float: left; }
+     
+
+.images-section {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
